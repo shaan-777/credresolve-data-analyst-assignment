@@ -1,0 +1,4 @@
+issue,affected_count,affected_pct,risk,impact,recommended_action
+Accounts assigned to multiple campaigns,13235.0,56.695510623714874,HIGH,"Same payment may be attributed to multiple campaigns, creating double counting and inflated campaign recovery.",Implement deterministic attribution. Each payment should be assigned to one campaign using a defined attribution window and priority rule.
+Campaign-attributed payment overlap,912165941.8600001,48.548070318952405,HIGH,"If campaign-attributed recovery exceeds actual recovery, payments are being counted more than once.",Do not sum campaign recovery as total business recovery. Use unique account-level payments as the source of truth.
+Repeated targeting of same account in same campaign,282.0,0.6306608520630661,MEDIUM,Repeated exposure makes a simple before/after comparison difficult and can bias attribution.,Deduplicate repeated targeting records or explicitly track exposure frequency separately.

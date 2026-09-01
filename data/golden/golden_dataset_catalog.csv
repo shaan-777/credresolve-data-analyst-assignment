@@ -1,0 +1,8 @@
+dataset,grain,purpose
+golden_account_recovery,One row per paying account,Actual account-level recovery analysis
+golden_payments,One row per valid payment event,Clean source of payment truth
+golden_campaign_performance,One row per campaign,Campaign recovery and conversion performance
+golden_campaign_pre_post,One row per campaign,Before vs after improvement validation
+golden_investment_recommendation,One row per campaign,₹10 Cr allocation recommendation
+golden_data_quality_summary,One row per data quality issue,Attribution and data quality risks
+golden_executive_metrics,One row per executive metric,Executive-level KPI reporting

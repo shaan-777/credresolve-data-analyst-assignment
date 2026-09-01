@@ -1,0 +1,4 @@
+issue,affected_count,affected_pct,risk,impact
+Accounts assigned to multiple campaigns,13235.0,56.695510623714874,HIGH,"Same payment may be attributed to multiple campaigns, creating double counting and inflated campaign recovery."
+Repeated targeting of same account in same campaign,282.0,0.6306608520630661,MEDIUM,Repeated exposure makes a simple before/after comparison difficult and can bias attribution.
+Campaign-attributed payment overlap,912165941.8600001,48.548070318952405,HIGH,"If campaign-attributed recovery exceeds actual recovery, payments are being counted more than once."
